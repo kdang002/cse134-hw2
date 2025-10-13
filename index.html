@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+    <!-- HEAD BEGINS -->
+	<head>
+		<meta charset="utf-8" />
+		<title>CSE 134B - HW2_VyDang</title>
+
+		<style>
+			/* Basic page reset and layout helpers */
+
+            /* Hi Grader, this CSS Styling is a must have for me. Simply a darker mode so then I don't
+            have to stare at a whitescreen 24/7. Helps me relax my eyes :) */
+			:root { background-color: gray ; --max-width: 900px; --accent: #0366d6; }
+
+		</style>
+
+		<!-- Inline Script when they have JS -->
+		<script>
+			// DOM-ready helper
+			document.addEventListener('DOMContentLoaded', () => {
+				console.log('HTML skeleton loaded');
+			});
+		</script>
+
+	</head>
+    <!-- HEAD ENDS -->
+
+    <!-- BODY BEGINS -->
+	<body>
+		<header id="home">
+            <h1>Vy Kiet Dang's Personal Portfolio</h1>
+            <p>Welcome to the site. This site is something I do for fun to vlog myself.</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+		</header>
+
+        <!-- MAIN BEGINS -->
+		<main>
+			<section id="about">
+				<h2>About Kiet</h2>
+				<p> 
+                    Kiet is currently an undergraduate student at <strong>UC San Diego</strong>, 
+                    majoring in <strong>Computer Science</strong>. 
+                    Kiet has always been amazed of <b>Robotics</b> technology, 
+                    especially application in the field of transportations. 
+                    Ever since moving to San Diego for college, 
+                    Kiet has fall in love with this place, and is hunting for j*bs 
+                    in order to stay with the warm sand and cold ocean. 
+                    He’s also obsessed with <i>Beige and Rounded corners</i>. 
+                </p>
+			</section>
+            
+            <br>
+
+			<section>
+				<h3>Goal</h3>
+                <ol>
+                    <li>Landing a j*b after college, preferably into automotive industry.</li>
+                    <li>Get a Master Degree in the same field.</li>
+                    <li>Supports my 2 younger sister’s financially.</li>
+                    <li>Become a College Instructor at one point and have my own startup.</li>
+
+                </ol>
+                
+                <br>
+
+                <h3>Frustration</h3>
+                <ol>
+                    <li>J*b market.</li>
+                    <li>Home is a hemisphere away.</li>
+                    <li>College professor is a professional yapper.</li>
+                    <li>Overcooked Steak but Undercook Chicken.</li>
+                    <li>UC San Diego parking situations.</li>
+                    <li>Too broke for expensive hobbies.</li>
+
+
+                </ol>
+
+			</section>
+
+
+            <article>
+				<h2>My All-Time Favorite Movie Article</h2>
+					<h3>Oppenheimer - Directed by Christopher Nolan</h3>
+					<p>
+                        Movie goes Kaboom, insane visuals by camera crew, 
+                        on top of magnificient audio by Ludwig Göransson.</p>
+			</article>	
+
+
+        <button type="button" 
+        onclick="alert('MACHINE WILL SELF DESTRUCT IN 5 SECONDS.');">Try me UwU</button>
+
+
+		</main>
+        <!-- MAIN ENDS -->
+
+
+        <!-- FOOTER BEGINS -->
+		<footer>
+			<div>
+				<p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+			</div>
+		</footer>
+        <!-- FOOTER ENDS -->
+
+		<script>
+			// Set current year in footer
+			document.getElementById('year').textContent = new Date().getFullYear();
+		</script>
+
+		<!-- JS Disable fail safe, learned it the hard way from 110 -->
+        <noscript>
+            <p>Hi, you are having your JavaScript turn off. This will affect some components of the website.</p>
+        </noscript>
+
+	</body>
+    <!-- BODY ENDS -->
+
+</html>
+
